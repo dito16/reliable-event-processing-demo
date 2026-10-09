@@ -1,0 +1,40 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python environments and editors
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+
+# Local state / fixtures that should never be shared by accident
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.log
+logs/
+runtime/
+*.zip
+*.tar
+*.tar.gz
+
+# Credentials and private key files (do not rely on gitignore alone)
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*

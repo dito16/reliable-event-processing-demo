@@ -1,0 +1,6 @@
+[
+  {"event_id": "evt-b1", "task_id": "task-202", "kind": "task_created", "title": "Check sample inventory"},
+  {"event_id": "evt-b2", "task_id": "task-202", "kind": "task_started"},
+  {"event_id": "evt-b2", "task_id": "task-202", "kind": "task_started"},
+  {"event_id": "evt-b3", "task_id": "task-202", "kind": "task_failed"}
+]

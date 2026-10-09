@@ -1,0 +1,5 @@
+[
+  {"event_id": "evt-a1", "task_id": "task-101", "kind": "task_created", "title": "Prepare sample report"},
+  {"event_id": "evt-a2", "task_id": "task-101", "kind": "task_started"},
+  {"event_id": "evt-a3", "task_id": "task-101", "kind": "task_completed"}
+]

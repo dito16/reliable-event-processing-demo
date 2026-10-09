@@ -1,0 +1,18 @@
+OFFLINE SYNTHETIC DEMO - ILLUSTRATIVE EXPECTED JSON SUMMARY
+
+A fresh database for examples/events_happy.json:
+{"deliveries":3,"delivery_failures":0,"ignored":0,"pending":0,"processed":3,"rejected":0,"states":{"task-101":"completed"}}
+
+Repeat the same fixture against the SAME database:
+{"deliveries":0,"delivery_failures":0,"ignored":3,"pending":0,"processed":0,"rejected":0,"states":{"task-101":"completed"}}
+
+A fresh database for examples/events_duplicates.json:
+{"deliveries":3,"delivery_failures":0,"ignored":1,"pending":0,"processed":3,"rejected":0,"states":{"task-202":"failed"}}
+
+Fresh happy fixture using --simulate-sink-failure:
+{"deliveries":0,"delivery_failures":1,"ignored":0,"pending":3,"processed":3,"rejected":0,"states":{"task-101":"completed"}}
+
+Repeat the same fixture against that failure database, without failure flag:
+{"deliveries":3,"delivery_failures":0,"ignored":3,"pending":0,"processed":0,"rejected":0,"states":{"task-101":"completed"}}
+
+These are synthetic local CLI outputs, not production measurements.
